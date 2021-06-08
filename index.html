@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- start search -->  
+<div class="search">
+ <div class="overlay"></div>
+ <form>
+  <input type="text" placeholder="Type...">
+  <input type="submit" value="Search"> 
+ </form>
+</div>
+<!-- end search -->  
+
+<!-- start setting box bag -->
+<div class="setting-box-bag"> 
+  <div class="offcanvas-header text-right">
+   <button class="offcanvas-close">
+    <img src="images/cancel.svg"> 
+   </button> 
+  </div>
+  <div class="offcanvas-add-cart-wrapper">
+   <h4>Shopping Cart</h4>
+   <ul>
+    <li>
+     <div class="offcanvas-cart-item-block">
+      <div class="offcanvas-cart-item-image-link">
+       <img src="images/recent-item-01.jpg">
+      </div>
+      <div class="offcanvas-cart-item-content">
+       <h5>Sneakers</h5>
+       <span>1 x $40.00</span>
+      </div> 
+     </div>
+     <div class="offcanvas-cart-item-delete text-right">
+      <a href="#" class="offcanvas-cart-item-delete">
+       <i class="far fa-trash-alt"></i> 
+      </a> 
+     </div>
+    </li>
+    <li>
+     <div class="offcanvas-cart-item-block">
+      <div class="offcanvas-cart-item-image-link">
+       <img src="images/recent-item-02.jpg">
+      </div>
+      <div class="offcanvas-cart-item-content">
+       <h5>Belt Watch</h5>
+       <span>1 x $40.00</span>
+      </div> 
+     </div>
+     <div class="offcanvas-cart-item-delete text-right">
+      <a href="#" class="offcanvas-cart-item-delete">
+       <i class="far fa-trash-alt"></i> 
+      </a> 
+     </div>
+    </li> 
+    <li>
+     <div class="offcanvas-cart-item-block">
+      <div class="offcanvas-cart-item-image-link">
+       <img src="images/recent-item-03.jpg">
+      </div>
+      <div class="offcanvas-cart-item-content">
+       <h5>Light Pink</h5>
+       <span>1 x $40.00</span>
+      </div> 
+     </div>
+     <div class="offcanvas-cart-item-delete text-right">
+      <a href="#" class="offcanvas-cart-item-delete">
+       <i class="far fa-trash-alt"></i> 
+      </a> 
+     </div>
+    </li> 
+    <li>
+     <div class="offcanvas-cart-item-block">
+      <div class="offcanvas-cart-item-image-link">
+       <img src="images/recent-item-04.jpg">
+      </div>
+      <div class="offcanvas-cart-item-content">
+       <h5>Hand Bag</h5>
+       <span>1 x $40.00</span>
+      </div> 
+     </div>
+     <div class="offcanvas-cart-item-delete text-right">
+      <a href="#" class="offcanvas-cart-item-delete">
+       <i class="far fa-trash-alt"></i> 
+      </a> 
+     </div>
+    </li>  
+   </ul>
+   <div class="offcanvas-cart-total-price">
+    <span>Subtotal</span>
+    <span class="offcanvas-value">$160.00</span>
+   </div>
+   <div class="text-center">
+    <a href="add-cart.html" class="offcanvas-cart-action-button">VIEW ALL CART</a>
+   </div>
+  </div>
+ </div>
+ <!-- end setting box bag -->
+ 
+ <!-- start setting box heart -->
+ <div class="setting-box-heart">
+   <div class="offcanvas-header text-right">
+    <button class="offcanvas-closee">
+     <img src="images/cancel.svg"> 
+    </button> 
+   </div>
+   <div class="offcanvas-add-cart-wrapper">
+    <h4>Wishlist</h4>
+    <ul>
+     <li>
+      <div class="offcanvas-cart-item-block">
+       <div class="offcanvas-cart-item-image-link">
+        <img src="images/recent-item-01.jpg">
+       </div>
+       <div class="offcanvas-cart-item-content">
+        <h5>Sneakers</h5>
+        <span>1 x $40.00</span>
+       </div> 
+      </div>
+      <div class="offcanvas-cart-item-delete text-right">
+       <a href="#" class="offcanvas-cart-item-delete">
+        <i class="far fa-trash-alt"></i> 
+       </a> 
+      </div>
+     </li>
+     <li>
+      <div class="offcanvas-cart-item-block">
+       <div class="offcanvas-cart-item-image-link">
+        <img src="images/recent-item-02.jpg">
+       </div>
+       <div class="offcanvas-cart-item-content">
+        <h5>Belt Watch</h5>
+        <span>1 x $40.00</span>
+       </div> 
+      </div>
+      <div class="offcanvas-cart-item-delete text-right">
+       <a href="#" class="offcanvas-cart-item-delete">
+        <i class="far fa-trash-alt"></i> 
+       </a> 
+      </div>
+     </li> 
+     <li>
+      <div class="offcanvas-cart-item-block">
+       <div class="offcanvas-cart-item-image-link">
+        <img src="images/recent-item-03.jpg">
+       </div>
+       <div class="offcanvas-cart-item-content">
+        <h5>Light Pink</h5>
+        <span>1 x $40.00</span>
+       </div> 
+      </div>
+      <div class="offcanvas-cart-item-delete text-right">
+       <a href="#" class="offcanvas-cart-item-delete">
+        <i class="far fa-trash-alt"></i> 
+       </a> 
+      </div>
+     </li>
+    </ul>
+    <div class="text-center">
+     <a href="wishlist.html" class="offcanvas-cart-action-button">VIEW WISHLIST</a>
+    </div>
+   </div>
+  </div>
+  <!-- end setting box hrart -->  
+<!-- START NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container">  
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ml-lg-5">
+        <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="shopping-card.html">Products</a>
+          </li>
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Pages
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="sign-up.html">Sign Up</a>
+              <a class="dropdown-item" href="login.html">Login</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+          </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <i class="far fa-heart on-hover"></i>
+        <i class="fas fa-shopping-bag ml-5 mr-5 on-hover"></i>
+        <i class="fas fa-search"></i>
+      </form>
+    </div>
+ </div> 
+</nav>
+<!-- END NAVBAR-->
+
+<!-- start slider -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/banner2.png" alt="slide">
+      <div class="carousel-caption d-none d-lg-block">
+        <h1>live for</h1>
+        <span>fashion</span>
+        <h3>Save Up To 50%</h3>
+        <button type="button" class="btn"><a href="shopping-card.html">SHOPING NOW</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end slider -->
+<!-- start under-banner-items -->
+<div class="under-banner-items">
+ <div class="row">
+  <div class="col-lg-4">
+   <div class="under-banner-item first-item">
+    <div class="text">
+      <h2>Extreme Rare <br>
+        Sneakers</h2>
+       <a href="shopping-card.html">SHOP NOW</a>
+    </div> 
+   </div> 
+  </div> 
+  <div class="col-lg-4">
+    <div class="under-banner-item second-item">
+     <div class="text">
+       <h2>Awesome<br>
+         Blank Outfit</h2>
+        <a href="shopping-card.html">SHOP NOW</a>
+     </div> 
+    </div> 
+   </div> 
+   <div class="col-lg-4">
+    <div class="under-banner-item third-item">
+     <div class="text">
+       <h2>Sportwear<br>
+        Up To 50% Off</h2>
+        <a href="shopping-card.html">SHOP NOW</a>
+     </div> 
+    </div> 
+   </div> 
+ </div> 
+</div>
+<!--end under-banner-items -->
+
+<!-- start products-->
+<div class="products">
+ <div class="container">
+  <h2 class="text-center">New Arrivals</h2>
+  <p class="text-center">Here you can check out our new products with fair price on fenco.</p>
+  <div class="row">
+   <div class="col-sm-12 col-md-3">
+    <div class="card">
+      <div>
+        <div class="overlay"></div>
+        <img class="card-img-top" src="images/recent-item-01.jpg" alt="Card image cap">
+       </div>
+       <a href="#">Add To Cart</a>
+      <div class="card-body">
+        <h5 class="card-title">Sneakers Splash VRT</h5>
+       <span>$39.99</span>
+      </div>
+    </div> 
+   </div>
+   <div class="col-sm-12 col-md-3">
+    <div class="card">
+      <div>
+        <div class="overlay"></div>
+        <img class="card-img-top" src="images/recent-item-02.jpg" alt="Card image cap">
+       </div>
+       <a href="#">Add To Cart</a>
+      <div class="card-body">
+        <h5 class="card-title">Black Belt Watch</h5>
+       <span>$129.99</span>
+      </div>
+    </div> 
+   </div>
+   <div class="col-sm-12 col-md-3">
+    <div class="card">
+      <div>
+        <div class="overlay"></div>
+        <img class="card-img-top" src="images/recent-item-03.jpg" alt="Card image cap">
+       </div>
+       <a href="#">Add To Cart</a>
+      <div class="card-body">
+        <h5 class="card-title">Modern Light Pink</h5>
+       <span>$99.99</span>
+      </div>
+    </div> 
+   </div>
+   <div class="col-sm-12 col-md-3">
+    <div class="card">
+      <div>
+        <div class="overlay"></div>
+        <img class="card-img-top" src="images/recent-item-04.jpg" alt="Card image cap">
+       </div>
+       <a href="#">Add To Cart</a>
+      <div class="card-body">
+        <h5 class="card-title">Hand Bag OUG Cassual</h5>
+       <span>$19.99</span>
+      </div>
+    </div> 
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-3">
+     <div class="card">
+       <div>
+       <div class="overlay"></div>
+       <img class="card-img-top" src="images/recent-item-05.jpg" alt="Card image cap">
+      </div>
+      <a href="#">Add To Cart</a>
+       <div class="card-body">
+         <h5 class="card-title">Man Bag OUG Cassual</h5>
+        <span>$39.99</span>
+       </div>
+     </div> 
+    </div>
+    <div class="col-sm-12 col-md-3">
+     <div class="card">
+      <div>
+        <div class="overlay"></div>
+        <img class="card-img-top" src="images/recent-item-06.jpg" alt="Card image cap">
+       </div>
+       <a href="#">Add To Cart</a>
+       <div class="card-body">
+         <h5 class="card-title">Porke Flat White</h5>
+        <span>$129.99</span>
+       </div>
+     </div> 
+    </div>
+    <div class="col-sm-12 col-md-3">
+     <div class="card">
+      <div>
+        <div class="overlay"></div>
+        <img class="card-img-top" src="images/recent-item-07.jpg" alt="Card image cap">
+       </div>
+       <a href="#">Add To Cart</a>
+       <div class="card-body">
+         <h5 class="card-title">Smart Sound Box</h5>
+        <span>$99.99</span>
+       </div>
+     </div> 
+    </div>
+    <div class="col-sm-12 col-md-3">
+     <div class="card">
+      <div>
+        <div class="overlay"></div>
+        <img class="card-img-top" src="images/recent-item-08.jpg" alt="Card image cap">
+       </div>
+       <a href="#">Add To Cart</a>
+       <div class="card-body">
+         <h5 class="card-title">IP Smart Sound Pods</h5>
+        <span>$19.99</span>
+       </div>
+     </div> 
+    </div>
+    <div class="view-products mt-5">
+    <a href="shopping-card.html">VIEW ALL PRODUCT</a>
+  </div>
+   </div>
+</div>
+</div>
+<!-- end products-->
+<!-- start special offer-->
+<div class="special-offer">
+ <div class="container">
+  <div class="row">
+   <div class="col-lg-4 offset-lg-4 col-md-12 col-sm-12 col-12">
+     <div class="offer_banner_one text-center">
+      <h5>TRENDING</h5>
+      <h2>New Fashion</h2>
+      <p>Consectetur adipisicing elit. Dolores nisi distinctio magni, iure deserunt doloribus optio</p>
+      <a href="shopping-card.html" class="theme-btn">SHOP NOW</a>
+     </div>
+   </div> 
+  </div> 
+ </div> 
+</div>
+<!-- end special offer-->
+<!-- start follow us-->
+<div class="follow-us">
+ <div class="container">
+  <h2 class="text-center">Follow Us on Instagram</h2>
+  <div class="row">
+    <div class="col-sm-6 col-md-3">
+      <div class="card">
+        <img class="card-img-top" src="images/recent-item-01.jpg" alt="Card image cap">
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="card">
+        <img class="card-img-top" src="images/recent-item-02.jpg" alt="Card image cap">
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="card">
+        <img class="card-img-top" src="images/recent-item-03.jpg" alt="Card image cap">
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="card">
+        <img class="card-img-top" src="images/recent-item-04.jpg" alt="Card image cap">
+      </div>
+    </div>
+  </div>
+ </div> 
+</div>
+<!-- end follow us-->
+<!-- start how shipping -->
+<div class="how-ship">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-12 col-lg-4">
+    <div class="contents">
+     <div class="icon">
+      <i class="fas fa-truck"></i> 
+     </div>
+     <div class="right-text">
+      <h6>Free Shipping</h6>
+      <span>Free, fast & secure delivery within 24h.</span>
+     </div>
+    </div> 
+   </div>
+   <div class="col-md-12 col-lg-4">
+    <div class="contents">
+     <div class="icon">
+      <i class="far fa-bookmark"></i>
+     </div>
+     <div class="right-text">
+      <h6>Free Shipping</h6>
+      <span>Free, fast & secure delivery within 24h.</span>
+     </div>
+    </div> 
+   </div> 
+   <div class="col-md-12 col-lg-4">
+    <div class="contents">
+     <div class="icon">
+      <i class="fas fa-redo-alt"></i>
+     </div>
+     <div class="right-text">
+      <h6>Free Shipping</h6>
+      <span>Free, fast & secure delivery within 24h.</span>
+     </div>
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+</div>
+<!-- end how shipping -->
+<!-- start contact -->
+<div class="contact">
+  <div class="row">
+   <div class="col-md-12 col-lg-6">
+    <img src="images/logo.png">
+    <p>I'm baby master cleanse health goth etsy gastropub. Bitters whatever small batch fingerstache
+       mumblecore, palo santo umami typewriter tattooed truffaut blue bottle twee.</p> 
+   </div>
+   <div class="col-md-12 col-lg-2">
+    <div class="footer-widget">
+     <h4>Policy Info</h4>
+     <ul>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Use</a></li>
+      <li><a href="#">Terms of Sale</a></li>
+      <li><a href="#">Report Abuse</a></li>
+      <li><a href="#">Report Spam</a></li> 
+     </ul>
+    </div> 
+   </div>
+   <div class="col-md-12 col-lg-2">
+    <div class="footer-widget">
+     <h4>Useful Links</h4>
+     <ul>
+      <li><a href="#">Women Collection</a></li>
+      <li><a href="#">Man Collection</a></li>
+      <li><a href="#">Kids Collection</a></li>
+      <li><a href="#">Accesories</a></li>
+      <li><a href="#">Gift & Gift Cards</a></li> 
+     </ul>
+    </div> 
+   </div>
+   <div class="col-md-12 col-lg-2">
+    <div class="footer-widget">
+     <h4>Customer Support</h4>
+     <ul>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">FAQs</a></li>
+      <li><a href="#">Order Tracking</a></li>
+      <li><a href="#">Shopping & Returns</a></li>
+     </ul>
+    </div> 
+   </div>
+  </div> 
+</div>
+<!-- end contact -->  
+<!-- start footer -->
+<div class="footer">
+ <div class="row">
+  <div class="col-md-12 col-lg-6">
+   <p>&copy; All rights reserved. Fashion Team 2021.</p> 
+  </div>
+  <div class="col-md-12 col-lg-6">
+    <div class="icons">
+     <i class="fab fa-facebook-f"></i>
+     <i class="fab fa-twitter"></i>
+     <i class="fab fa-linkedin-in"></i>
+     <i class="fab fa-instagram"></i>
+    </div> 
+   </div> 
+ </div> 
+</div>
+<!-- end footer -->
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAK-rmtYKAA7DQ3Mw9vwn1kRG4Wg43h7vU&callback=initMap">
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdn.usebootstrap.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/index.js"></script>  
+</body>
+</html>
