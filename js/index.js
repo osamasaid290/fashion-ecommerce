@@ -1,4 +1,3 @@
-new WOW().init();
 
 /* make map */
 let map;
@@ -36,3 +35,5 @@ document.querySelector('.fa-search').onclick = function(){
 
   document.querySelector('.search').classList.add('search-open');
 }
+
+new WOW().init();
